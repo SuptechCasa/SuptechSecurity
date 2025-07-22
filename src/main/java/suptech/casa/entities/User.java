@@ -27,6 +27,7 @@ public class User implements UserDetails{
 	boolean active;
 	
 	private List<String> getRoles() {
+		if (this.roles==null) return List.of();
 		return Arrays.asList(this.roles.split(";"));
 	}
 	

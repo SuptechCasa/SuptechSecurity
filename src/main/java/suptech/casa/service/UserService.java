@@ -7,7 +7,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Setter;
 import suptech.casa.entities.User;
 import suptech.casa.repositories.UserRepository;
